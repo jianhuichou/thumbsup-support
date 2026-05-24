@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 456" role="img" aria-labelledby="title desc">
+  <title id="title">Rewards preview</title>
+  <desc id="desc">Reward progress screen with points and wish list.</desc>
+  <rect width="240" height="456" rx="28" fill="#fbfdff"/>
+  <rect x="14" y="14" width="212" height="428" rx="22" fill="#fbfbff"/>
+  <text x="28" y="50" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="900">Alex</text>
+  <rect x="28" y="76" width="184" height="126" rx="24" fill="#fff" stroke="#e1e7f0"/>
+  <circle cx="61" cy="113" r="24" fill="#eef4ff"/>
+  <path d="M61 96l5.2 10.5 11.6 1.7-8.4 8.2 2 11.5-10.4-5.5-10.4 5.5 2-11.5-8.4-8.2 11.6-1.7z" fill="#fff" stroke="#6d5dfc" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="104" y="106" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="900">50 more points</text>
+  <text x="104" y="126" fill="#445066" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="700">unlocks Sticker</text>
+  <rect x="104" y="144" width="72" height="22" rx="11" fill="#eef4ff"/>
+  <text x="140" y="159" text-anchor="middle" fill="#3159d4" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="800">Progress</text>
+  <text x="42" y="236" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="900">Progress to Sticker</text>
+  <rect x="42" y="254" width="156" height="10" rx="5" fill="#dde5ff"/>
+  <rect x="42" y="254" width="82" height="10" rx="5" fill="#6d5dfc"/>
+  <text x="42" y="284" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11">50 points left to unlock a reward.</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <rect x="28" y="320" width="54" height="58" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="55" y="344" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Today</text>
+    <text x="55" y="364" text-anchor="middle" fill="#14203a" font-size="17" font-weight="900">0</text>
+    <rect x="93" y="320" width="54" height="58" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="120" y="344" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Pending</text>
+    <text x="120" y="364" text-anchor="middle" fill="#14203a" font-size="17" font-weight="900">0</text>
+    <rect x="158" y="320" width="54" height="58" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="185" y="344" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Streak</text>
+    <text x="185" y="364" text-anchor="middle" fill="#14203a" font-size="17" font-weight="900">7</text>
+  </g>
+  <text x="28" y="416" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="900">Wish List</text>
+  <circle cx="203" cy="410" r="14" fill="#6d5dfc"/>
+  <path d="M198 410h10M203 405v10" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
