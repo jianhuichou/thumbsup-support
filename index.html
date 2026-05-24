@@ -36,7 +36,8 @@
     }
 
     .wrap {
-      width: min(920px, calc(100% - 40px));
+      width: calc(100% - 40px);
+      max-width: 920px;
       margin: 0 auto;
     }
 
@@ -64,6 +65,8 @@
       max-width: 780px;
       font-size: clamp(2.25rem, 7vw, 4.5rem);
       letter-spacing: 0;
+      overflow-wrap: break-word;
+      text-wrap: balance;
     }
 
     .lead {
@@ -152,6 +155,38 @@
       margin-top: 0;
     }
 
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .screen-shot {
+      margin: 0;
+    }
+
+    .phone-shot {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: #eef2ff;
+      box-shadow: 0 18px 44px rgba(21, 32, 51, 0.12);
+    }
+
+    .phone-shot img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      font-weight: 700;
+    }
+
     .muted {
       color: var(--muted);
     }
@@ -169,6 +204,31 @@
       color: var(--muted);
       font-size: 0.95rem;
     }
+
+    @media (max-width: 600px) {
+      .wrap {
+        width: calc(100% - 32px);
+        max-width: 358px;
+      }
+
+      .hero {
+        padding: 44px 0 36px;
+      }
+
+      h1 {
+        max-width: 10ch;
+        font-size: clamp(2rem, 10vw, 2.5rem);
+      }
+
+      .lead {
+        font-size: 1rem;
+      }
+
+      .grid,
+      .screenshots {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
   </style>
 </head>
 <body>
@@ -179,6 +239,7 @@
       <p class="lead">ThumbsUp Family Rewards helps families organize kid-friendly routines, tasks, points, rewards, and parent approvals in one iOS app.</p>
       <nav aria-label="Page sections">
         <a href="#support">Support</a>
+        <a href="#screenshots">Screenshots</a>
         <a href="#privacy">Privacy Policy</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -202,6 +263,37 @@
           <h3>Family sync</h3>
           <p>Some builds may include iCloud or CloudKit-backed family sharing. Availability depends on the current TestFlight build and Apple ID/iCloud status.</p>
         </div>
+      </div>
+    </section>
+
+    <section id="screenshots">
+      <h2>App Screens</h2>
+      <p>These screens show the core TestFlight flow: start family setup, check a kid's daily routine, review parent progress, and see reward progress.</p>
+      <div class="screenshots" aria-label="ThumbsUp Family Rewards app screenshots">
+        <figure class="screen-shot">
+          <div class="phone-shot">
+            <img src="assets/screenshots/onboarding.jpg" alt="ThumbsUp onboarding screen introducing calmer family routines.">
+          </div>
+          <figcaption>Clear first-run setup</figcaption>
+        </figure>
+        <figure class="screen-shot">
+          <div class="phone-shot">
+            <img src="assets/screenshots/kid-dashboard.jpg" alt="Kid dashboard showing today's tasks, points, and streak progress.">
+          </div>
+          <figcaption>Kid-friendly daily task view</figcaption>
+        </figure>
+        <figure class="screen-shot">
+          <div class="phone-shot">
+            <img src="assets/screenshots/parent-dashboard.jpg" alt="Parent dashboard showing family progress, pending approvals, and routine status.">
+          </div>
+          <figcaption>Parent progress and approvals</figcaption>
+        </figure>
+        <figure class="screen-shot">
+          <div class="phone-shot">
+            <img src="assets/screenshots/rewards.jpg" alt="Rewards screen showing points progress toward available family rewards.">
+          </div>
+          <figcaption>Reward goals and progress</figcaption>
+        </figure>
       </div>
     </section>
 
