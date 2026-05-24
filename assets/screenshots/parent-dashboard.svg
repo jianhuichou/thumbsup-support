@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 456" role="img" aria-labelledby="title desc">
+  <title id="title">Parent dashboard preview</title>
+  <desc id="desc">Parent dashboard for progress, approvals, and routines.</desc>
+  <rect width="240" height="456" rx="28" fill="#fbfdff"/>
+  <rect x="14" y="14" width="212" height="428" rx="22" fill="#f8fbff"/>
+  <text x="28" y="48" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="900">Family</text>
+  <text x="28" y="74" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12">Track routines, rewards, and approvals.</text>
+  <rect x="28" y="98" width="184" height="44" rx="18" fill="#eef4ff"/>
+  <circle cx="52" cy="120" r="12" fill="#fff"/>
+  <path d="M52 111l2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8z" fill="#6d5dfc"/>
+  <text x="72" y="125" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="800">Focused on Alex</text>
+  <rect x="138" y="110" width="58" height="22" rx="11" fill="#6d5dfc"/>
+  <text x="167" y="125" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" font-weight="800">Add task</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <rect x="28" y="160" width="54" height="54" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="55" y="184" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Done</text>
+    <text x="55" y="202" text-anchor="middle" fill="#14203a" font-size="16" font-weight="900">0/2</text>
+    <rect x="93" y="160" width="54" height="54" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="120" y="184" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Rewards</text>
+    <text x="120" y="202" text-anchor="middle" fill="#14203a" font-size="16" font-weight="900">0/0</text>
+    <rect x="158" y="160" width="54" height="54" rx="16" fill="#fff" stroke="#e1e7f0"/>
+    <text x="185" y="184" text-anchor="middle" fill="#667085" font-size="9" font-weight="700">Streak</text>
+    <text x="185" y="202" text-anchor="middle" fill="#14203a" font-size="16" font-weight="900">0</text>
+  </g>
+  <rect x="28" y="236" width="184" height="84" rx="20" fill="#fff" stroke="#e1e7f0"/>
+  <text x="44" y="266" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="900">Needs Your Attention</text>
+  <text x="44" y="290" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11">Review requests and keep the family plan on track.</text>
+  <rect x="44" y="300" width="74" height="8" rx="4" fill="#dde5ff"/>
+  <rect x="28" y="342" width="184" height="74" rx="20" fill="#fff" stroke="#e1e7f0"/>
+  <text x="44" y="372" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="900">Parent Plan</text>
+  <rect x="44" y="388" width="130" height="10" rx="5" fill="#e7ecf5"/>
+</svg>
