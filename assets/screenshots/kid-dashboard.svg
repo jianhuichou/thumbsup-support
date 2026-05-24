@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 456" role="img" aria-labelledby="title desc">
+  <title id="title">Kid dashboard preview</title>
+  <desc id="desc">Kid task dashboard with points and routine progress.</desc>
+  <rect width="240" height="456" rx="28" fill="#fbfdff"/>
+  <rect x="14" y="14" width="212" height="428" rx="22" fill="#f7f8ff"/>
+  <text x="28" y="48" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="700">TODAY'S ROUTINE</text>
+  <circle cx="120" cy="106" r="36" fill="#eef4ff" stroke="#cfd9ff" stroke-width="3"/>
+  <path d="M120 85l6.3 12.8 14.1 2.1-10.2 9.9 2.4 14-12.6-6.6-12.6 6.6 2.4-14-10.2-9.9 14.1-2.1z" fill="#fff" stroke="#6d5dfc" stroke-width="3" stroke-linejoin="round"/>
+  <text x="120" y="164" text-anchor="middle" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="800">Lv 1</text>
+  <text x="120" y="190" text-anchor="middle" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="900">Alex</text>
+  <rect x="93" y="206" width="54" height="24" rx="12" fill="#14b875"/>
+  <text x="120" y="223" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="800">+0</text>
+  <rect x="31" y="252" width="178" height="72" rx="18" fill="#fff" stroke="#e1e7f0"/>
+  <text x="120" y="282" text-anchor="middle" fill="#445066" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700">2 habits are still ready</text>
+  <rect x="71" y="294" width="98" height="18" rx="9" fill="#eef4ff"/>
+  <text x="120" y="307" text-anchor="middle" fill="#3159d4" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="9" font-weight="700">Ready for a thumbs up</text>
+  <rect x="30" y="348" width="86" height="36" rx="14" fill="#6d5dfc"/>
+  <text x="73" y="371" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="800">To do</text>
+  <rect x="124" y="348" width="86" height="36" rx="14" fill="#fff" stroke="#e1e7f0"/>
+  <text x="167" y="371" text-anchor="middle" fill="#445066" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="800">Done</text>
+  <rect x="36" y="404" width="168" height="32" rx="16" fill="#18a0d8"/>
+  <text x="120" y="425" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="800">Open Rewards</text>
+</svg>
