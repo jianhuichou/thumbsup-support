@@ -2,6 +2,9 @@
 
 Static support and privacy page for ThumbsUp Family Rewards.
 
+The page includes app screenshots under `assets/screenshots/` for the onboarding,
+kid dashboard, parent dashboard, and rewards views.
+
 Expected GitHub Pages URL:
 
 ```text
