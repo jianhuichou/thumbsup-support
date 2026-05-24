@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 456" role="img" aria-labelledby="title desc">
+  <title id="title">ThumbsUp onboarding preview</title>
+  <desc id="desc">First-run setup screen for ThumbsUp Family Rewards.</desc>
+  <rect width="240" height="456" rx="28" fill="#fbfdff"/>
+  <rect x="14" y="14" width="212" height="428" rx="22" fill="#f4f7ff"/>
+  <circle cx="43" cy="44" r="11" fill="#6d5dfc"/>
+  <path d="M39 44h8M43 40v8" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="60" y="49" fill="#172033" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700">ThumbsUp</text>
+  <text x="28" y="104" fill="#14203a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="800">
+    <tspan x="28" dy="0">Make family</tspan>
+    <tspan x="28" dy="31">habits feel</tspan>
+    <tspan x="28" dy="31">clear.</tspan>
+  </text>
+  <text x="28" y="214" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">
+    <tspan x="28" dy="0">Track routines for kids and</tspan>
+    <tspan x="28" dy="20">parents, celebrate progress,</tspan>
+    <tspan x="28" dy="20">and keep rewards simple.</tspan>
+  </text>
+  <rect x="28" y="298" width="184" height="48" rx="18" fill="#6d5dfc"/>
+  <text x="120" y="328" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="800">Start family setup</text>
+  <rect x="42" y="366" width="156" height="12" rx="6" fill="#dde5ff"/>
+  <rect x="42" y="392" width="118" height="12" rx="6" fill="#e7ecf5"/>
+  <rect x="42" y="418" width="136" height="12" rx="6" fill="#e7ecf5"/>
+</svg>
